@@ -1,0 +1,19 @@
+sudo apt install mongodb-clients
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Hospitals_Corporation_Facilities.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Population_By_Neighborhood.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Graduation_Outcomes.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Class_Size.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Water_Complaint_Street.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Landmarks.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Wifi.csv 
+
+mongoimport --db projetNoSQL --type csv --headerline --drop --port 3333 --file Projet_Olivier_Yoo/Motor_Vehicle_Collisions.csv 
+
+

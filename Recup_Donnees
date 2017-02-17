@@ -1,0 +1,18 @@
+rm -r Projet_Olivier_Yoo/
+mkdir Projet_Olivier_Yoo
+cd Projet_Olivier_Yoo/
+#Health
+curl https://data.cityofnewyork.us/api/views/ymhw-9cz9/rows.csv?accessType=DOWNLOAD>Hospitals_Corporation_Facilities.csv
+#City Government
+curl https://data.cityofnewyork.us/api/views/swpk-hqdp/rows.csv?accessType=DOWNLOAD >Population_By_Neighborhood.csv
+#Education
+curl https://data.cityofnewyork.us/api/views/avir-tzek/rows.csv?accessType=DOWNLOAD > Graduation_Outcomes.csv
+curl https://data.cityofnewyork.us/api/views/7yds-6i8e/rows.csv?accessType=DOWNLOAD > Class_Size.csv
+#Environment
+curl https://data.cityofnewyork.us/api/views/qfe3-6dkn/rows.csv?accessType=DOWNLOAD > Water_Complaint_Street.csv
+#Public Safety
+curl https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.csv?accessType=DOWNLOAD > Motor_Vehicle_Collisions.csv
+#Recreation
+curl https://data.cityofnewyork.us/api/views/rb9s-d3m8/rows.csv?accessType=DOWNLOAD > Landmarks.csv
+#Social Services 
+curl https://data.cityofnewyork.us/api/views/jd4g-ks2z/rows.csv?accessType=DOWNLOAD > Wifi.csv
